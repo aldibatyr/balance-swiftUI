@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D11A358A24B1AD73000173AD /* AddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A358924B1AD73000173AD /* AddScreen.swift */; };
+		D11A358E24B2845D000173AD /* EntriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A358D24B2845D000173AD /* EntriesList.swift */; };
+		D11A359024B285A2000173AD /* EntriesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A358F24B285A2000173AD /* EntriesListCell.swift */; };
+		D11A359224B2C8EA000173AD /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A359124B2C8EA000173AD /* StatsView.swift */; };
+		D11A359524B2D6F0000173AD /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = D11A359424B2D6F0000173AD /* SwiftUICharts */; };
+		D1CFF95024DB936300C96DCC /* EditEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CFF94F24DB936300C96DCC /* EditEntryView.swift */; };
 		D1FCF10324B1A3A100FEA593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCF10224B1A3A100FEA593 /* AppDelegate.swift */; };
 		D1FCF10524B1A3A100FEA593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCF10424B1A3A100FEA593 /* SceneDelegate.swift */; };
 		D1FCF10824B1A3A100FEA593 /* balance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1FCF10624B1A3A100FEA593 /* balance.xcdatamodeld */; };
@@ -14,9 +20,17 @@
 		D1FCF10C24B1A3A200FEA593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FCF10B24B1A3A200FEA593 /* Assets.xcassets */; };
 		D1FCF10F24B1A3A200FEA593 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FCF10E24B1A3A200FEA593 /* Preview Assets.xcassets */; };
 		D1FCF11224B1A3A200FEA593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FCF11024B1A3A200FEA593 /* LaunchScreen.storyboard */; };
+		D1FCF11A24B1A5D100FEA593 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCF11924B1A5D100FEA593 /* Entry.swift */; };
+		D1FCF11F24B1A65100FEA593 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCF11E24B1A65100FEA593 /* MainView.swift */; };
+		D1FCF12124B1A6F400FEA593 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FCF12024B1A6F400FEA593 /* MainViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D11A358924B1AD73000173AD /* AddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreen.swift; sourceTree = "<group>"; };
+		D11A358D24B2845D000173AD /* EntriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesList.swift; sourceTree = "<group>"; };
+		D11A358F24B285A2000173AD /* EntriesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesListCell.swift; sourceTree = "<group>"; };
+		D11A359124B2C8EA000173AD /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		D1CFF94F24DB936300C96DCC /* EditEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEntryView.swift; sourceTree = "<group>"; };
 		D1FCF0FF24B1A3A100FEA593 /* balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FCF10224B1A3A100FEA593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1FCF10424B1A3A100FEA593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +40,9 @@
 		D1FCF10E24B1A3A200FEA593 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1FCF11124B1A3A200FEA593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1FCF11324B1A3A200FEA593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FCF11924B1A5D100FEA593 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		D1FCF11E24B1A65100FEA593 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D1FCF12024B1A6F400FEA593 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11A359524B2D6F0000173AD /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,10 +78,13 @@
 			children = (
 				D1FCF10224B1A3A100FEA593 /* AppDelegate.swift */,
 				D1FCF10424B1A3A100FEA593 /* SceneDelegate.swift */,
+				D1FCF11B24B1A61D00FEA593 /* views */,
 				D1FCF10924B1A3A100FEA593 /* ContentView.swift */,
 				D1FCF10B24B1A3A200FEA593 /* Assets.xcassets */,
+				D1FCF11D24B1A62A00FEA593 /* viewModels */,
 				D1FCF11024B1A3A200FEA593 /* LaunchScreen.storyboard */,
 				D1FCF11324B1A3A200FEA593 /* Info.plist */,
+				D1FCF11C24B1A62200FEA593 /* models */,
 				D1FCF10624B1A3A100FEA593 /* balance.xcdatamodeld */,
 				D1FCF10D24B1A3A200FEA593 /* Preview Content */,
 			);
@@ -76,6 +97,35 @@
 				D1FCF10E24B1A3A200FEA593 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1FCF11B24B1A61D00FEA593 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCF11E24B1A65100FEA593 /* MainView.swift */,
+				D11A358924B1AD73000173AD /* AddScreen.swift */,
+				D11A358D24B2845D000173AD /* EntriesList.swift */,
+				D11A358F24B285A2000173AD /* EntriesListCell.swift */,
+				D11A359124B2C8EA000173AD /* StatsView.swift */,
+				D1CFF94F24DB936300C96DCC /* EditEntryView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D1FCF11C24B1A62200FEA593 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCF11924B1A5D100FEA593 /* Entry.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D1FCF11D24B1A62A00FEA593 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCF12024B1A6F400FEA593 /* MainViewViewModel.swift */,
+			);
+			path = viewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +144,9 @@
 			dependencies = (
 			);
 			name = balance;
+			packageProductDependencies = (
+				D11A359424B2D6F0000173AD /* SwiftUICharts */,
+			);
 			productName = balance;
 			productReference = D1FCF0FF24B1A3A100FEA593 /* balance.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +175,9 @@
 				Base,
 			);
 			mainGroup = D1FCF0F624B1A3A100FEA593;
+			packageReferences = (
+				D11A359324B2D6F0000173AD /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = D1FCF10024B1A3A100FEA593 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,9 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11A359224B2C8EA000173AD /* StatsView.swift in Sources */,
+				D1FCF11A24B1A5D100FEA593 /* Entry.swift in Sources */,
+				D1FCF11F24B1A65100FEA593 /* MainView.swift in Sources */,
+				D1FCF12124B1A6F400FEA593 /* MainViewViewModel.swift in Sources */,
+				D11A358A24B1AD73000173AD /* AddScreen.swift in Sources */,
+				D1CFF95024DB936300C96DCC /* EditEntryView.swift in Sources */,
 				D1FCF10324B1A3A100FEA593 /* AppDelegate.swift in Sources */,
 				D1FCF10524B1A3A100FEA593 /* SceneDelegate.swift in Sources */,
 				D1FCF10A24B1A3A100FEA593 /* ContentView.swift in Sources */,
+				D11A358E24B2845D000173AD /* EntriesList.swift in Sources */,
+				D11A359024B285A2000173AD /* EntriesListCell.swift in Sources */,
 				D1FCF10824B1A3A100FEA593 /* balance.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"balance/Preview Content\"";
+				DEVELOPMENT_TEAM = B347GRJCNR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = balance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"balance/Preview Content\"";
+				DEVELOPMENT_TEAM = B347GRJCNR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = balance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D11A359324B2D6F0000173AD /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D11A359424B2D6F0000173AD /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D11A359324B2D6F0000173AD /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D1FCF10624B1A3A100FEA593 /* balance.xcdatamodeld */ = {

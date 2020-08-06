@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var currentTab = 0
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            MainView()
+            .tabItem({
+                VStack {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+            }).tag(0)
+            StatsView()
+            .tabItem({
+                VStack {
+                    Image(systemName: "chart.pie")
+                    Text("Balance Summary")
+                }
+                }).tag  (1)
+        }
+
     }
 }
 
@@ -19,3 +36,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
